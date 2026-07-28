@@ -17,6 +17,11 @@ jobs:
         run: make install
       - name: Format
         run: make format
+ - name: Update Branch
+        env:
+          NAME: ${{ secrets.USER_NAME }}
+          EMAIL: ${{ secrets.USER_EMAIL }}
+        run: make update-branch USER_NAME=$NAME USER_EMAIL=$EMAIL
       - name: Train
         run: make train
       - name: Evaluation
