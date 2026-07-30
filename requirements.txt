@@ -1,5 +1,7 @@
-pandas
-scikit-learn
-matplotlib
+gradio>=5.10.0
+huggingface_hub>=0.28.0
 skops
-black
+scikit-learn
+pandas
+numpy
+spaces
