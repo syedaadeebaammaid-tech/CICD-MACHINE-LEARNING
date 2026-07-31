@@ -4,5 +4,6 @@ skops
 scikit-learn
 pandas
 numpy
+matplotlib
 spaces
 black

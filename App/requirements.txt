@@ -1,2 +1,6 @@
-scikit-learn
+gradio>=5.10.0
+huggingface_hub>=0.28.0
 skops
+scikit-learn
+pandas
+numpy
